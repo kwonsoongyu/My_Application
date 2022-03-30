@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".project4_4">
+
+    <TextView
+        android:id="@+id/Text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="선택을 시작하겠습니까?" />
+
+    <Switch
+        android:id="@+id/SwiAgree"
+        android:layout_width="161dp"
+        android:layout_height="56dp"
+        android:text="시작함" />
+
+    <TextView
+        android:id="@+id/Text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="좋아하는 안드로이드 버전은?"
+        android:visibility="invisible" />
+
+    <RadioGroup
+        android:id="@+id/Rgroup1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible">
+
+        <RadioButton
+            android:id="@+id/Rdo1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="version1" />
+
+        <RadioButton
+            android:id="@+id/Rdo2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="version2" />
+
+        <RadioButton
+            android:id="@+id/Rdo3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="version3" />
+    </RadioGroup>
+
+    <ImageView
+        android:id="@+id/Imgandroid"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/end"
+        android:layout_width="98dp"
+        android:layout_height="67dp"
+        android:text="종료하기"/>
+
+    <Button
+        android:id="@+id/init"
+        android:layout_width="100dp"
+        android:layout_height="69dp"
+        android:text="처음으로"/>
+</LinearLayout>
