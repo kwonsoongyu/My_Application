@@ -27,7 +27,7 @@ public class Mission6_2 extends TabActivity {
         tabRabbit.setContent(R.id.rabbit);
         tabHost.addTab(tabRabbit);
 
-        TabHost.TabSpec tabHorse = tabHost.newTabSpec("lion").setIndicator("사자");
+        TabHost.TabSpec tabHorse = tabHost.newTabSpec("horse").setIndicator("말");
         tabHorse.setContent(R.id.horse);
         tabHost.addTab(tabHorse);
 

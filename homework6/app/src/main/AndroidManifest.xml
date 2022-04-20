@@ -14,7 +14,7 @@
         android:theme="@style/Theme.Homework6"
         android:usesCleartextTraffic="true">
         <activity
-            android:name=".Mission_pdf_Mainfragment_10"
+            android:name=".Mission_pdf_main_9"
             android:exported="false"
             tools:ignore="Instantiatable"/>
         <activity
@@ -30,7 +30,7 @@
             android:exported="false"
             tools:ignore="Instantiatable"/>
         <activity
-            android:name=".Mission_pdf_main_9"
+            android:name=".Mission_pdf_Login_8"
             android:exported="false" />
         <activity
             android:name=".Mission_pdf_CustomerFragment_9"
@@ -49,9 +49,6 @@
             android:name=".Mission_pdf_custom_8"
             android:exported="false" />
         <activity
-            android:name=".Mission_pdf_6"
-            android:exported="false" />
-        <activity
             android:name=".Mission7_3"
             android:exported="false" />
         <activity
@@ -61,24 +58,29 @@
             android:name=".Mission6_3"
             android:exported="false" />
         <activity
-            android:name=".Mission6_2"
-            android:exported="false" />
+            android:name=".Mission_pdf_Mainfragment_10"
+            android:exported="false"
+            tools:ignore="Instantiatable"/>
         <activity
             android:name=".Mission6_1"
             android:exported="false" />
         <activity
-            android:name=".Mission7_pdf_Login"
+            android:name=".Mission6_2"
+            android:exported="false" />
+        <activity
+            android:name=".Mission_pdf_6"
             android:exported="false" />
         <activity
             android:name=".Mission7_pdf_mainmenu"
             android:exported="false" />
         <activity
-            android:name=".Mission_pdf_Login_8"
+            android:name=".Mission7_pdf_Login"
             android:exported="false" />
         <activity
             android:name=".Mission_pdf_main_10"
             android:exported="true"
-            android:theme="@style/AppTheme.NoActionBar">
+            android:theme="@style/AppTheme.NoActionBar"
+            tools:ignore="Instantiatable">
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
