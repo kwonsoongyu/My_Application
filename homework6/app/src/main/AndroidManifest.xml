@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.homework6">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Homework6"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".Mission_pdf_Mainfragment_10"
+            android:exported="false"
+            tools:ignore="Instantiatable"/>
+        <activity
+            android:name=".Mission_pdf_fragment3_10"
+            android:exported="false"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".Mission_pdf_fragment2_10"
+            android:exported="false"
+            tools:ignore="Instantiatable"/>
+        <activity
+            android:name=".Mission_pdf_fragment1_10"
+            android:exported="false"
+            tools:ignore="Instantiatable"/>
+        <activity
+            android:name=".Mission_pdf_main_9"
+            android:exported="false" />
+        <activity
+            android:name=".Mission_pdf_CustomerFragment_9"
+            android:exported="false"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".Mission_pdf_sales_8"
+            android:exported="false" />
+        <activity
+            android:name=".Mission_pdf_Md_8"
+            android:exported="false" />
+        <activity
+            android:name=".Mission_pdf_Menu_8"
+            android:exported="false" />
+        <activity
+            android:name=".Mission_pdf_custom_8"
+            android:exported="false" />
+        <activity
+            android:name=".Mission_pdf_6"
+            android:exported="false" />
+        <activity
+            android:name=".Mission7_3"
+            android:exported="false" />
+        <activity
+            android:name=".Mission7_2"
+            android:exported="false" />
+        <activity
+            android:name=".Mission6_3"
+            android:exported="false" />
+        <activity
+            android:name=".Mission6_2"
+            android:exported="false" />
+        <activity
+            android:name=".Mission6_1"
+            android:exported="false" />
+        <activity
+            android:name=".Mission7_pdf_Login"
+            android:exported="false" />
+        <activity
+            android:name=".Mission7_pdf_mainmenu"
+            android:exported="false" />
+        <activity
+            android:name=".Mission_pdf_Login_8"
+            android:exported="false" />
+        <activity
+            android:name=".Mission_pdf_main_10"
+            android:exported="true"
+            android:theme="@style/AppTheme.NoActionBar">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
